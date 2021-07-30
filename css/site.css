@@ -1,0 +1,235 @@
+
+.parte1{
+    position: relative;
+}
+.paragrafo1{
+    display:flex;
+    align-items:center;
+    background-image: url(../imagens/arvore.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    padding: 8px 58px;
+    position:fixed;
+    top: 12px;
+    background: #215E21;
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size:29px;
+}
+.paragrafo1{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 58px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    color:white;
+    gap: 30px;
+}
+.botao1{
+    color:white;
+    font-family:'Rubik', sans-serif;
+    background: #238E23;
+    font-size: 23px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    padding:0.6em 2em;
+    text-shadow: 2px -1px 1px black;
+    cursor:pointer;
+}
+.botao1:hover{
+    color:sandybrown;
+    transform:scale(1.1);
+}
+.planeta{
+    display: flex;
+    align-items:center;
+    padding:115px 58px;
+    gap:124px;
+}
+.imagem-planeta{
+    display:inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#070707;
+
+}
+.texto-2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    gap:34px;
+    font-weight: bold;
+}
+.texto-2 > p{
+    font-size: 20px;
+}
+.botao2{
+    color:white;
+    font-family:'Rubik', sans-serif;
+    background: #238E23;
+    font-size: 23px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    padding:0.6em 2em;
+    cursor:pointer;
+}
+.outono{
+    display:flex;
+    align-items:center;
+    background:#238E23;
+    padding:60px 40px;
+    gap:40px;
+}
+.card > img{
+    width: 306px;
+    height:204px;
+    border-radius: 10px;
+}
+.card{
+    background:whitesmoke;
+    padding: 17px 11px 57px;
+    border-radius: 10px;
+}
+.card > * + * {
+    margin-top: 20px;
+}
+.texto-3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.texto-3 > * + * {
+    margin-top: 20px;
+}
+.texto-3 > h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto-3 > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards{
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    gap: 25px;
+}
+.card > h3{
+    font-size:40px;
+    font-weight: bold;
+}
+.card > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.botao3{
+    color:#238E23;
+    font-family:'Rubik', sans-serif;
+    background: white;
+    font-size: 23px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    padding:0.6em 2em;
+    cursor: pointer;
+}
+.pessoas{
+    display:flex;
+    align-items:center;
+    padding-left: 100px;
+    background-image: url(../imagens/pessoas.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+.texto-4 > h2 {
+    font-size:40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.texto-4 > p {
+    font-family: 'Open Sans', sans-serif;
+}
+.texto-4 {
+    color:antiquewhite;
+}
+.texto-4  > * + * {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.botao4{
+    color:#238E23;
+    font-family:'Rubik', sans-serif;
+    background: white;
+    font-size: 23px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    padding:0.6em 2em;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.botao5{
+    color:white;
+    font-family:'Rubik', sans-serif;
+    background: #238E23;
+    font-size: 23px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    padding:0.6em 2em;
+    cursor:pointer;
+}
+.rodape{
+    background-image: url(../imagens/arvore.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.envelope{
+    height:100%;
+    background: rgba(33, 94, 33, 0.75);
+}
+.fundo-rodape{
+    display:flex;
+    justify-content:space-around;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.lista > * + * {
+    margin-top: 40px;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo-rodape{
+    font-family: 'Lobster', cursive;
+    font-size: 41px;
+    color:white;
+    margin-top: 40px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    background: #155215;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color:aliceblue;
+    padding:10px;
+}
+
