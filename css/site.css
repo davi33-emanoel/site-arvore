@@ -2,14 +2,6 @@
 .parte1{
     position: relative;
 }
-.paragrafo1{
-    display:flex;
-    align-items:center;
-    background-image: url(../imagens/arvore.jpeg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
 .header{
     width: 100%;
     display: flex;
@@ -24,9 +16,14 @@
 }
 .paragrafo1{
     display:flex;
-    justify-content:center;
     flex-direction: column;
+    justify-content:center;
     align-items:flex-start;
+    background-image: url(../imagens/arvore.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
     padding-left: 58px;
     font-family: 'Rubik', sans-serif;
     font-size: 45px;
@@ -154,17 +151,17 @@
     background-size: cover;
     height: 100vh;
 }
-.texto-4 > h2 {
+.texto-4-pessoas {
+    color:antiquewhite;
+}
+.texto-4-pessoas > h2 {
     font-size:40px;
     font-family: 'Open Sans', sans-serif;
 }
-.texto-4 > p {
+.texto-4-pessoas > p {
     font-family: 'Open Sans', sans-serif;
 }
-.texto-4 {
-    color:antiquewhite;
-}
-.texto-4  > * + * {
+.texto-4-pessoas > * + * {
     margin-top: 20px;
     font-weight: bold;
 }
@@ -231,5 +228,82 @@ a{
     font-size:20px;
     color:aliceblue;
     padding:10px;
+}
+@media (max-width:414px) {
+    .paragrafo1{
+        font-size:39px;
+        padding-left: 20px;
+    }
+    .planeta{
+        display:flex;
+        flex-direction: column;
+        padding: 30px 28px 69px;
+    }
+    .texto-2{
+        text-align: center;
+        font-size:30px;
+    
+    }
+    .texto-2 > p{
+            font-size:16px;
+            
+    }
+    .outono{
+        padding: 58px 32px 108px;
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .texto-3 >h2{
+        font-size: 30px;
+    }
+    .texto-3 > p {
+        font-size:16px;
+    }
+    .botao3{
+        align-self: end;
+    }
+    .texto-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+    }
+    .pessoas{
+        flex-direction: column;
+        padding: 237px 49px 110px;
+    } 
+    .texto-4 > h2 {
+        font-size:30px;  
+    }
+    .texto-4 > p {
+        font-size:16px;   
+    }
+    .botoes-pessoas{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+    .botoes-pessoas > * + * {
+       margin-top:20px ;
+    }
+    .botao4{
+        margin-right: 0;
+    }
+    .fundo-rodape{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .lista{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+    }
+
 }
 
